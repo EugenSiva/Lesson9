@@ -8,5 +8,8 @@ class Person:
     def pozdrav(self):
         print(f"Ahoj volám sa {self.name} a mám {self.age} rokov")
 
+eugen = Person(name="Eugen", age=36, gender="muz", occupation="Bratislava")
+eugen.pozdrav()
 patrik = Person(name="Patrik", age=30, gender="muz", occupation="Bratislava")
 patrik.pozdrav()
+
