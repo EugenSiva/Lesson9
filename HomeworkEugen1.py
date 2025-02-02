@@ -10,10 +10,7 @@ class City:
     def get_full_address(self):
         return f"{self.city_name}, {self.region_name}, {self.country_name}, ZIP: {self.zip_code}, Area Code: {self.area_code}"
 
-    def __str__(self):
-        return f"City: {self.city_name}, Region: {self.region_name}, Country: {self.country_name}, Population: {self.num_citizens}, ZIP: {self.zip_code}, Area Code: {self.area_code}"
 
 
 city = City("Bratislava", "Bratislava", "Slovensko", 475503, "85101", "14")
 print(city.get_full_address())
-print(city)
