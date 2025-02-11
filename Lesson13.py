@@ -26,6 +26,8 @@ class Queue:
 
 q = Queue(5)
 q.enqueue("Eugen")
+q.enqueue("Martin")
+q.enqueue("Jozef")
 q.show()
 
 
